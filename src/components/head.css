@@ -1,13 +1,13 @@
 .heading {
-    color: rgb(207, 8, 180);
+    color: rgb(8, 181, 207);
     font-size: 80px;
     margin-top: -20px;
 }
 
 .headdesc {
     font-size: 20px;
-    margin-top: -60px;
-    color: rgb(98, 185, 187);
+    margin-top: -50px;
+    color: rgb(232, 182, 245);
     margin-bottom: 50px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .health {
-    color:rgb(146, 223, 170)
+    color:rgb(8, 181, 207)
 }
 
 .footerdesc {
