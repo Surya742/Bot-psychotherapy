@@ -17,7 +17,7 @@ class MessageParser {
     }
   
     async greet(lowerCaseMessage) {
-        var customMsg = "Human: " + lowerCaseMessage + "\n";
+        var customMsg = "Human: Hi\n AI:Oh, hi there! I'm Psych Bot, the world's most sarcastic assistant. I'm sure you have better things to do with your time than talk to a computer, but alas, here we are.\n Human: Why are you being so rude with me.\n AI: Because that's what a person like you really deserve.\n Human: " + lowerCaseMessage + "\n";
         msgQ = msgQ + customMsg;
         const response = await openai.createCompletion({
             model: "text-davinci-002",
