@@ -17,7 +17,9 @@
 }
 
 .health {
-    color:rgb(8, 181, 207)
+    color:rgb(8, 181, 207);
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(255, 255, 255);
 }
 
 .footerdesc {
@@ -40,29 +42,37 @@
 @media screen and (max-width: 480px) {
     .heading {
         color: rgb(8, 181, 207);
-        font-size: 80px;
+        font-size: 40px;
         margin-top: -0px;
     }
 
+    .headdesc {
+        font-size: 20px;
+        margin-top: -30px;
+        color: rgb(232, 182, 245);
+        margin-bottom: 20px;
+    }
+
     .footerdesc {
-        font-size: 10px;
+        font-size: 8px;
         color:rgb(121, 180, 183);
-        margin-top: -20px;
+        margin-top: 15px;
     }
 
     .me {
-        font-size: 15px;
+        font-size: 10px;
         color: aliceblue;
-        margin-top: -5px;
+        margin-top: -8px;
     }
 
     .footer-headdesc {
-        font-size: 15px;
+        display: none;
+        font-size: 8px;
         margin-bottom: 20px;
     }
 
     .footer-head{
-        height: 92px;
+        height: 40px;
         margin-top: -10px;
     }
 }
