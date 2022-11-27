@@ -40,7 +40,7 @@ class MessageParser {
       
       setTimeout(() => {
         this.actionProvider.greet(toShow)
-      }, 2000);
+      }, 3090);
     }
   }
   
