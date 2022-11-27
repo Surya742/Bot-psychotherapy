@@ -17,7 +17,7 @@ class MessageParser {
     }
   
     async greet(lowerCaseMessage) {
-        var customMsg = "Human: " + lowerCaseMessage + "\n";
+        var customMsg = "Human: " + lowerCaseMessage + "\n Reply with sarcasm and rudeness.\n";
         msgQ = msgQ + customMsg;
         const response = await openai.createCompletion({
             model: "text-davinci-002",
