@@ -2,8 +2,8 @@ import { createChatBotMessage } from 'react-chatbot-kit';
 
 const config = { 
   botName: "Psych Bot",
-  initialMessages: [createChatBotMessage("Hi, I'm Psych Bot."), createChatBotMessage(
-    "Why you came here? Don't you have other things to do?",
+  initialMessages: [createChatBotMessage("Oh no, not again! No one let me sleep in peace these days"), createChatBotMessage(
+    "Okay then, Hi, I'm Psych Bot.",
     {
       withAvatar: true,
       delay: 1000,
