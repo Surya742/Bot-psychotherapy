@@ -1,3 +1,3 @@
 window.env = {
-  "OPENAI_API_KEY": "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"
+  "OPENAI_API_KEY": "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"
 };
