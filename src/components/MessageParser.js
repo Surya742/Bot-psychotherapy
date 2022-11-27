@@ -23,7 +23,7 @@ class MessageParser {
             model: "text-davinci-002",
             prompt: msgQ,
             temperature: 1,
-            max_tokens: 1000,
+            max_tokens: 1300,
             top_p: 1,
             frequency_penalty: 0,
             presence_penalty: 0.6,
