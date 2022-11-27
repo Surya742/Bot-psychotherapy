@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 480px) {
+  .App-header {
+    background-color: #033947;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 90vh;
+  }
+}

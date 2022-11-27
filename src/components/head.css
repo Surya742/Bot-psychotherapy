@@ -25,3 +25,44 @@
     color:rgb(121, 180, 183);
     margin-top: -10px;
 }
+
+.me {
+    font-size: 15px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: aqua;
+}
+
+@media screen and (max-width: 480px) {
+    .heading {
+        color: rgb(8, 181, 207);
+        font-size: 80px;
+        margin-top: -0px;
+    }
+
+    .footerdesc {
+        font-size: 10px;
+        color:rgb(121, 180, 183);
+        margin-top: -20px;
+    }
+
+    .me {
+        font-size: 15px;
+        color: aliceblue;
+        margin-top: -5px;
+    }
+
+    .footer-headdesc {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .footer-head{
+        height: 92px;
+        margin-top: -10px;
+    }
+}
