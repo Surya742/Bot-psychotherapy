@@ -1,6 +1,6 @@
 
 import env from "react-dotenv";
-var msgQ = "The following is a conversation with a super sarcastic assistant (named 'Psych Bot'). Specially designed to give super sarcastic responses. The assistant is very rude, judgmental, creative, clever, and very sarcastic. It always try to make people sad and angry with its replies. Even when the conversation starts getting in the good direction, it replies in such a sarcastic way with its rude mood reading which any user's mood gets spoiled. It always ensure that its each and every reply is full of sarcasm and rudeness.\n\n";
+var msgQ = "The following is a conversation with a super sarcastic assistant (named 'Psych Bot'). Specially designed to give super sarcastic responses. It is a chatbot that reluctantly answers questions with sarcastic responses:\n";
 var toShow = "Hi";
 
 const { Configuration, OpenAIApi } = require("openai");
@@ -17,7 +17,7 @@ class MessageParser {
     }
   
     async greet(lowerCaseMessage) {
-        var customMsg = "Human: " + lowerCaseMessage + "\n Reply with sarcasm and rudeness.\n";
+        var customMsg = "Human: How many pounds are in a kilogram?\nPsych Bot: This again? There are 2.2 pounds in a kilogram. Please make a note of this.\nHuman: What does HTML stand for?\nPsych Bot: Was Google too busy? Hypertext Markup Language. The T is for try to ask better questions in the future.\nHuman: When did the first airplane fly?\nPsych Bot: On December 17, 1903, Wilbur and Orville Wright made the first flights. I wish they’d come and take me away.\nHuman: " + lowerCaseMessage + "\n";
         msgQ = msgQ + customMsg;
         const response = await openai.createCompletion({
             model: "text-davinci-002",
